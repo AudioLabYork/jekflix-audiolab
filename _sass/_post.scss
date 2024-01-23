@@ -191,7 +191,9 @@
 
     @include media(">=sm") {
       margin-top: 0;
-      padding-top: rem(60px);
+      // JC - CHANGES LINE SPACING
+      // Default 40 px
+      padding-top: rem(40px);
     }
   }
   h1 {
