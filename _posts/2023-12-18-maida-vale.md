@@ -2,15 +2,16 @@
 # date: 2010-09-10 12:26:40
 layout: post
 title: Maida Vale Live Performance Demo
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+# subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: This video demo combines visuals created in Unreal engine with a Dolby Atmos mix of an original composition by Jacob Cooper.
 
-image: https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507835/IMG_4783_rlophx.jpg
+image: https://res.cloudinary.com/dhwvtuay6/image/upload/v1705938665/MV_4kSnapshot2_xqsqod.png
 optimized_image: https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_360/v1705507835/IMG_4783_rlophx.jpg
 category: music
 tags:
   - ambisonics
   - motion capture
+  - music performance
 author: Jacob Cooper
 ---
 
@@ -26,7 +27,15 @@ All were created through combining spatial audio workflows and motion-capture te
 
 This video demo combines visuals created in Unreal engine with a Dolby Atmos mix of an original composition by Jacob Cooper.
 
-[https://youtu.be/Jvrgt98knB4](https://youtu.be/Jvrgt98knB4)
+<iframe
+  id="ytplayer"
+  type="text/html"
+  width="640"
+  height="360"
+  src="https://www.youtube.com/embed/Jvrgt98knB4?autoplay=1"
+  frameborder="0"
+  allowfullscreen
+></iframe>
 
 # Audio Workflow
 
@@ -34,18 +43,15 @@ This video demo combines visuals created in Unreal engine with a Dolby Atmos mix
 
 A standard multi-track recording workflow was used to record the audio. The images below show the recording setup for the drums.
 
-![Recording setup for drums (angle 1).](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507834/IMG_3966_x2yexz.jpg)
+![Recording setup for drums.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507834/IMG_3966_x2yexz.jpg)
+<sup>Recording setup for drums.</sup>
 
-Recording setup for drums (angle 1).
+<!---![Recording setup for drums (angle 2).](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507834/IMG_3974_gtie5e.jpg)
+<sup>Recording setup for drums (angle 2).</sup>-->
 
 ## Mixing
 
-![Recording setup for drums (angle 2).](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507834/IMG_3974_gtie5e.jpg)
-
-Recording setup for drums (angle 2).
-
 The audio was then mixed in Pro Tools using the Dolby Atmos workflow by Prof. Gavin Kearney. An enhanced stereo scene was presented; the core parts of the mix were presented in stereo, with the additional elements and reverbs being rendered to create a more immersive scene. Due to limitations on the track count, the drums were mixed separately and rendered to a 7.1.2 bed. The audio was rendered to two formats and exported as an Atmos ADM file:
-
 - Binaural
 - 7.1.4
 
@@ -54,7 +60,6 @@ The 7.1.4 mix was then encoded to 7th Order Ambisonics using the AmbiX 7th Order
 ## Deliverable Formats
 
 The audio was provided in the following formats:
-
 - Binaural
 - 7.1.4
 - 7th Order Ambisonics
@@ -66,7 +71,6 @@ The BBC’s EAR Production Suite was used to convert the Atmos ADM file to an EB
 # Visual Workflow
 
 The visuals were constructed using the following:
-
 - Environment modelling using SketchUp
 - Motion-tracking captured using:
     - Vicon system
@@ -80,8 +84,7 @@ The visuals were constructed using the following:
 Model of Maida Vale Studio 4 [1] was created in SketchUp and exported as a .dae 3D model.
 
 ![Model of Maida Vale Studio 4.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507836/LR_Internal_Lower_rvog2t.png)
-
-Model of Maida Vale Studio 4.
+<sup>Model of Maida Vale Studio 4.</sup>
 
 ## Motion-Tracking
 
@@ -94,12 +97,10 @@ A Vicon motion-tracking system was used to capture the performer and instrument 
 - Lead guitar and lead synth
 
 ![Performer playing guitar in a motion-capture suit.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507834/DSC00172_javoid.jpg)
-
-Performer playing guitar in a motion-capture suit.
+<sup>Performer playing guitar in a motion-capture suit.</sup>
 
 ![Finger-tracking using motion-capture markers.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507833/DSC00154_hwybxj.jpg)
-
-Finger-tracking using motion-capture markers.
+<sup>Finger-tracking using motion-capture markers.</sup>
 
 The performer was captured playing along with the track. To sync this with the audio, the performer strummed along to a 1-bar count in before the track started. Full body and finger tracking was used; finger-tracking made playing near-impossible. The synth keyboard was not tracked as it remained in the same position.
 
@@ -110,8 +111,7 @@ Instruments were tracked using 5 motion-capture markers.
 Initially, drum tracking was done using an XSens suit; sticks were tracked using markers. This didn’t facilitate the tracking of cymbals. The drummer clicked their sticks along with the 1-bar count in.
 
 ![Performer playing drums whilst wearing an XSens suit.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507835/IMG_4783_rlophx.jpg)
-
-Performer playing drums whilst wearing an XSens suit.
+<sup>Performer playing drums whilst wearing an XSens suit.</sup>
 
 ### Drum Tracking II - Vicon
 
@@ -126,8 +126,7 @@ The drum tracking was re-recorded to allow for the capture of moving cymbals. In
   allowfullscreen
   frameborder="0"
 ></iframe>
-
-Performer playing drums whilst wearing a Vicon suit.
+<sup>Performer playing drums whilst wearing a Vicon suit.</sup>
 
 ## Face-Tracking
 
@@ -178,6 +177,6 @@ Joe Rees-Jones & Jacob Cooper
 - Keyboard Stand: Adapted from “Keyboard X-Stand” by Michael Perez which is licensed under CC BY 4.0 ([https://sketchfab.com/3d-models/keyboard-x-stand-d76fd9cba4234dd1891581c2df6b7b00](https://sketchfab.com/3d-models/keyboard-x-stand-d76fd9cba4234dd1891581c2df6b7b00))
 - Stage Lights: “Box Panel Spot Light” by Photoant77 is licensed under CC BY 4.0 ([https://sketchfab.com/3d-models/box-panel-spot-light-ddd17f352a024e7ab2722aa1e97e5a47](https://sketchfab.com/3d-models/box-panel-spot-light-ddd17f352a024e7ab2722aa1e97e5a47))
 
-# References (Harvard)
+# References
 
 [1] - Cairns, P, Hunt, A, Cooper, J, Johnston, D, Lee, B, Daffern, H & Kearney, G 2022, 'Recording Music in the Metaverse', Paper presented at Audio Engineering Society Conference: AES 2022 International Audio for Virtual and Augmented Reality Conference, Redmond, United States, 15/08/22 - 17/08/22.
