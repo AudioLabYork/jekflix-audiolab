@@ -6,7 +6,7 @@ title: Maida Vale Live Performance Demo
 description: This video demo combines visuals created in Unreal engine with a Dolby Atmos mix of an original composition by Jacob Cooper.
 
 image: https://res.cloudinary.com/dhwvtuay6/image/upload/v1705938665/MV_4kSnapshot2_xqsqod.png
-optimized_image: https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_360/v1705507835/IMG_4783_rlophx.jpg
+optimized_image: https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_360/v1705938665/MV_4kSnapshot2_xqsqod.png
 category: music
 tags:
   - ambisonics
