@@ -11,7 +11,9 @@ category: music
 tags:
   - ambisonics
   - motion capture
-  - music performance
+  - music
+  - audio
+  - visual
 author: Jacob Cooper
 ---
 
