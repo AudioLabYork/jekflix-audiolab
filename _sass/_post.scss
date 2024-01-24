@@ -77,7 +77,9 @@
     @include media(">=sm") {
       font-size: rem(20px);
       line-height: rem(40px);
-      margin: rem(29px) auto 0;
+      // JC - CHANGES SPACING BELOW VIDEOS
+      // Default 29 px
+      margin: rem(10px) auto 0;
     }
   }
 
@@ -153,7 +155,9 @@
   }
 
   li {
-    padding: rem(10px) 0;
+    // JC - CHANGES BULLET SPACING
+    // Deafult value 10 px
+    padding: rem(0px) 0;
 
     ul {
       margin-bottom: 0;
