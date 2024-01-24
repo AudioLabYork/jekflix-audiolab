@@ -142,6 +142,8 @@ Unreal’s ‘Sequencer’ was used to put the project together. Cameras were pl
 
 ## Credits
 
+The AudioLab would like to thank Google for their collaboration with, and funding of this project.
+
 ### Composition, Recording & Production
 
 Jacob Cooper
