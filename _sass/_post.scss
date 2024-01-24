@@ -51,7 +51,9 @@
   figcaption,
   img + em {
     display: block;
-    color: darken($lightGray, 30%);
+    // TR - CHANGES CAPTION COLOR
+    // color: darken($lightGray, 30%);
+    color: darken($texts, 30%);
     text-align: center;
     @include mainFont(300);
   }
@@ -90,7 +92,9 @@
   }
 
   p.post-subtitle {
-    color: darken($lightGray, 30%);
+    // color: darken($lightGray, 30%);
+    // TR - CHANGES SUBTITLE COLOR
+    color: lighten($texts, 20%);
     font-size: rem(17px);
     margin: rem(10px) auto;
     line-height: 1.6;

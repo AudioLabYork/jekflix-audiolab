@@ -7,13 +7,11 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200">
+<!-- <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200"> -->
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This page is maintained by the members of [AudioLab, Univeristy of York](https://audiolab.york.ac.uk).
+The main purpose of this library is to share high quality spatial audio materials with the community.
+The selection of materials puts an emphasis on the use of Higher Order Ambisonics for the delivery of spatial music.
+We also aim to share details on the production workflows used for the creation of the materials.
