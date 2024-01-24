@@ -11,7 +11,9 @@ category: music
 tags:
   - ambisonics
   - motion capture
-  - music performance
+  - music
+  - audio
+  - visual
 author: Jacob Cooper
 ---
 
@@ -31,8 +33,10 @@ author: Jacob Cooper
 
 A standard multi-track recording workflow was used to record the audio. The images below show the recording setup for the drums.
 
-![Recording setup for drums.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507834/IMG_3966_x2yexz.jpg)
-<sup>Recording setup for drums.</sup>
+<figure>
+  <img src="https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_700/v1705507834/IMG_3966_x2yexz.jpg">
+  <figcaption>Recording setup for drums.</figcaption>
+</figure>
 
 <!---![Recording setup for drums (angle 2).](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507834/IMG_3974_gtie5e.jpg)
 <sup>Recording setup for drums (angle 2).</sup>-->
@@ -69,8 +73,10 @@ The visuals were constructed using the following:
 
 Model of Maida Vale Studio 4 [1] was created in SketchUp and exported as a .dae 3D model.
 
-![Model of Maida Vale Studio 4.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507836/LR_Internal_Lower_rvog2t.png)
-<sup>Model of Maida Vale Studio 4.</sup>
+<figure>  
+  <img src="https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_700/v1705507836/LR_Internal_Lower_rvog2t.png">
+  <figcaption>Model of Maida Vale Studio 4.</figcaption>
+</figure>
 
 ### Motion-Tracking
 
@@ -82,11 +88,15 @@ A Vicon motion-tracking system was used to capture the performer and instrument 
 - Rhythm guitar
 - Lead guitar and lead synth
 
-![Performer playing guitar in a motion-capture suit.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507834/DSC00172_javoid.jpg)
-<sup>Performer playing guitar in a motion-capture suit.</sup>
+<figure>  
+  <img src="https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_700/v1705507834/DSC00172_javoid.jpg">
+  <figcaption>Performer playing guitar in a motion-capture suit</figcaption>
+</figure>
 
-![Finger-tracking using motion-capture markers.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507833/DSC00154_hwybxj.jpg)
-<sup>Finger-tracking using motion-capture markers.</sup>
+<figure>  
+  <img src="https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_700/v1705507833/DSC00154_hwybxj.jpg">
+  <figcaption>Finger-tracking using motion-capture markers.</figcaption>
+</figure>
 
 The performer was captured playing along with the track. To sync this with the audio, the performer strummed along to a 1-bar count in before the track started. Full body and finger tracking was used; finger-tracking made playing near-impossible. The synth keyboard was not tracked as it remained in the same position.
 
@@ -96,23 +106,27 @@ Instruments were tracked using 5 motion-capture markers.
 
 Initially, drum tracking was done using an XSens suit; sticks were tracked using markers. This didn’t facilitate the tracking of cymbals. The drummer clicked their sticks along with the 1-bar count in.
 
-![Performer playing drums whilst wearing an XSens suit.](https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507835/IMG_4783_rlophx.jpg)
-<sup>Performer playing drums whilst wearing an XSens suit.</sup>
+<figure>  
+  <img src="https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1705507835/IMG_4783_rlophx.jpg">
+  <figcaption>Performer playing drums whilst wearing an XSens suit.</figcaption>
+</figure>
 
 #### Drum Tracking II - Vicon
 
 The drum tracking was re-recorded to allow for the capture of moving cymbals. Instead of an acoustic kit, an electric kit was played, with markers placed on the rubber cymbals. Fingers were not fully tracked for the drummer.
 
-<iframe
-  src="https://player.cloudinary.com/embed/?public_id=joe_drums&cloud_name=dhwvtuay6"
-  width="640"
-  height="360" 
-  style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
-  allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-  allowfullscreen
-  frameborder="0"
-></iframe>
-<sup>Performer playing drums whilst wearing a Vicon suit.</sup>
+<figure>  
+  <iframe
+    src="https://player.cloudinary.com/embed/?public_id=joe_drums&cloud_name=dhwvtuay6"
+    width="640"
+    height="360" 
+    style="height: auto; width: 100%; aspect-ratio: 640 / 360;"
+    allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+    allowfullscreen
+    frameborder="0"
+  ></iframe>
+  <figcaption><br>Performer playing drums whilst wearing an XSens suit.</figcaption>
+</figure>
 
 ### Face-Tracking
 
@@ -129,6 +143,8 @@ The model and tracking data were combined in Unreal Engine 5; all tracking data 
 Unreal’s ‘Sequencer’ was used to put the project together. Cameras were placed inside the virtual space to capture the video.
 
 ## Credits
+
+The AudioLab would like to thank Google for their collaboration with, and funding of this project.
 
 ### Composition, Recording & Production
 
