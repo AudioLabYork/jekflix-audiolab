@@ -142,6 +142,52 @@ The model and tracking data were combined in Unreal Engine 5; all tracking data 
 
 Unreal’s ‘Sequencer’ was used to put the project together. Cameras were placed inside the virtual space to capture the video.
 
+## Download Materials
+
+<table>
+<thead>
+  <tr>
+    <th>Type</th>
+    <th>Title</th>
+    <th>Audio Format</th>
+    <th>Filetype</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="5">Audio Only</td>
+    <td><a href="">MaidaVale_Binaural</a></td>
+    <td>Binaural<br><i>Dolby Atmos Decode</i></td>
+    <td>WAV</td>
+  </tr>
+  <tr>
+    <td><a href="">MaidaVale_7OA</a></td>
+    <td>7OA<br><i>ACN/SN3D</i></td>
+    <td>WAV</td>
+  </tr>
+  <tr>
+    <td><a href="">MaidaVale_7_1_4</a></td>
+    <td>7.1.4<br><i>Decoded from 7OA</i></td>
+    <td>WAV</td>
+  </tr>
+  <tr>
+    <td><a href="">MaidaVale_EBU_ADM</a></td>
+    <td>EBU ADM</td>
+    <td>WAV</td>
+  </tr>
+  <tr>
+    <td><a href="">MaidaVale_Atmos_<br>ADM</a></td>
+    <td>Atmos ADM</td>
+    <td>WAV</td>
+  </tr>
+    <td>Audio & Visuals</td>
+    <td><a href="">MaidaVale_Visuals_<br>4k_Binaural</a></td>
+    <td>Binaural<br><i>Decoded from 7OA</i></td>
+    <td>WAV</td>
+  </tr>
+</tbody>
+</table>
+
 ## Credits
 
 The AudioLab would like to thank Google for their collaboration with, and funding of this project.

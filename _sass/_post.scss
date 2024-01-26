@@ -280,7 +280,9 @@
     font-size: rem(17px);
     line-height: rem(35px);
     letter-spacing: 0.025rem;
-    margin: rem(50px) auto;
+    // JC - Changes spacing before and after table
+    // Default value 50px
+    margin: rem(30px) auto;
     border-collapse: collapse;
 
     @include media(">=sm") {
