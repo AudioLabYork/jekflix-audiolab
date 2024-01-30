@@ -16,6 +16,25 @@ author: Tomasz Rudzki
 
 <!-- This dataset contains audio and video materials recorded during a networked music performance which took place on 22.08.2023 between the Univesity of York and University of Huddersfield. -->
 
+## Network Setup
+Phipp's Hall, University of Huddersfield, and the AudioLab, University of York, were connected over the internet using the existing academic internet access at each endpoint (JANET). [JackTrip](https://ccrma.stanford.edu/software/jacktrip/) was used to stream audio between endpoints, and [JACK](https://jackaudio.org/) was used to route audio between JackTrip and hardware capture/playback buffers. A full system throughput latency of approximately 16ms was achieved. Local Mic capture and JackTrip receive channels were recorded at each endpoint.
+
+<figure>
+  <img src="https://res.cloudinary.com/dhwvtuay6/image/upload/c_scale,w_800/v1706625965/saffire-york-huddersfield-map_kndz0t.png">
+  <figcaption>Simplified map of the system.</figcaption>
+</figure>
+
+
+<!-- Link for JackTrip:
+https://ccrma.stanford.edu/software/jacktrip/
+
+Pub for JackTrip:
+https://doi.org/10.1080/09298215.2010.481361
+
+Link for JACK:
+https://jackaudio.org/ -->
+
+
 ## Spatial Audio Production Workflow
 
 Based on the time-aligned stems from the performance, two selected pieces were mixed in 7th-order Ambisonics. The virtual singer postions were uniformly distributed in front of the listener in a perfect half-circle.
@@ -92,7 +111,10 @@ The binaural files were rendered using MagLS filters calculated from SADIE II KU
 ### Recording & Production
 Helena Daffern, Andrew Chadwick, Patrick Cairns, Jacob Cooper, Tomasz Rudzki
 
-### Mixing
+### Networking
+Patrick Cairns
+
+### Spatial Audio Mixing
 Tomasz Rudzki, Jacob Cooper
 
 ### Funding

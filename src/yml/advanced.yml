@@ -1,10 +1,10 @@
 # uncomment the following two lines for local development
-baseurl: ""
-url: ""
+# baseurl: ""
+# url: ""
 
 # uncomment the following two lines for deployment on the server
-# baseurl: "/library" # the subpath of your site, e.g. /blog
-# url: "https://audiolab.york.ac.uk" # the base hostname & protocol for your site
+baseurl: "/library" # the subpath of your site, e.g. /blog
+url: "https://audiolab.york.ac.uk" # the base hostname & protocol for your site
 
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"

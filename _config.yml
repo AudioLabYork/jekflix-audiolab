@@ -27,12 +27,12 @@ menu:
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: AudioLabYork
+facebook_username: AudioLabYork
+twitter_username: AudioLabYork
+# instagram_username: instagram_username
+linkedin_username: audiolab-york
+# medium_username: medium_username
 
 
 # Posts Settings
@@ -43,8 +43,14 @@ two_columns_layout: true
 
 
 # Advanced Settings
+# uncomment the following two lines for local development
+# baseurl: ""
+# url: ""
+
+# uncomment the following two lines for deployment on the server
 baseurl: "/library" # the subpath of your site, e.g. /blog
 url: "https://audiolab.york.ac.uk" # the base hostname & protocol for your site
+
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
