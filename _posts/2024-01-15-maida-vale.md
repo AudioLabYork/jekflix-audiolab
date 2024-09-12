@@ -156,32 +156,32 @@ Unreal’s ‘Sequencer’ was used to put the project together. Cameras were pl
 <tbody>
   <tr>
     <td rowspan="5">Audio Only</td>
-    <td><a href="">MaidaVale_Binaural</a></td>
+    <td><a href="https://zenodo.org/records/10571315/files/MaidaVale_Binaural.wav?download=1">MaidaVale_Binaural</a></td>
     <td>Binaural<br><i>Dolby Atmos Decode</i></td>
     <td>WAV</td>
   </tr>
   <tr>
-    <td><a href="">MaidaVale_7OA</a></td>
+    <td><a href="https://zenodo.org/records/10571315/files/MaidaVale_7OA.wav?download=1">MaidaVale_7OA</a></td>
     <td>7OA<br><i>ACN/SN3D</i></td>
     <td>WAV</td>
   </tr>
   <tr>
-    <td><a href="">MaidaVale_7_1_4</a></td>
+    <td><a href="https://zenodo.org/records/10571315/files/MaidaVale_7_1_4.wav?download=1">MaidaVale_7_1_4</a></td>
     <td>7.1.4<br><i>Decoded from 7OA</i></td>
     <td>WAV</td>
   </tr>
   <tr>
-    <td><a href="">MaidaVale_EBU_ADM</a></td>
+    <td><a href="https://zenodo.org/records/10571315/files/MaidaVale_EBU_ADM.wav?download=1">MaidaVale_EBU_ADM</a></td>
     <td>EBU ADM</td>
     <td>WAV</td>
   </tr>
   <tr>
-    <td><a href="">MaidaVale_Atmos_<br>ADM</a></td>
+    <td><a href="https://zenodo.org/records/10571315/files/MaidaVale_Atmos_ADM.wav?download=1">MaidaVale_Atmos_<br>ADM</a></td>
     <td>Atmos ADM</td>
     <td>WAV</td>
   </tr>
     <td>Audio & Visuals</td>
-    <td><a href="">MaidaVale_Visuals_<br>4k_Binaural</a></td>
+    <td><a href="https://zenodo.org/records/10571315/files/MaidaVale_Visuals_4k_Binaural.mp4?download=1">MaidaVale_Visuals_<br>4k_Binaural</a></td>
     <td>Binaural<br><i>Decoded from 7OA</i></td>
     <td>WAV</td>
   </tr>
